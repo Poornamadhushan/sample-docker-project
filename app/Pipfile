@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+pillow = "*"
+python-dotenv = "*"
+azure-cognitiveservices-vision-computervision = "*"
+msrest = "*"
+pandas = "*"
+pyarrow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
